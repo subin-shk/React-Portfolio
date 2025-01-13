@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills mt-10">
       <h1 className="text-center mb-5">Tech Stack</h1>
 
       <img src="images/html.png" alt="html" />
