@@ -118,6 +118,12 @@ html {
     height: 9vh;
     width: 10vw;
   }
+
+  .side-contents h1 {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #000;
+  }
 }
 
 /* Media query to remove the fixed navbar on large screens */

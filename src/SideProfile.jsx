@@ -14,7 +14,7 @@ const SideProfile = () => {
       <h1>Subin Shakya</h1>
       <p>Currently pursuing B.Sc. CSIT in Nepal</p>
       <a href="/Subin_Shakya_CV.pdf" download="Subin_Shakya_CV.pdf">
-        <button className="border border-gray-500 rounded-full px-4 py-2 my-5 hover:bg-blue-700">
+        <button className="border border-gray-500 rounded-full px-4 py-2 my-5 hover:bg-gray-500 hover:text-white">
           Download Resume
         </button>
       </a>

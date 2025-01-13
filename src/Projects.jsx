@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <>
       <h1 className="text-center mb-5">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-x-6 gap-y-10">
         {items.map((item) => (
           <div
             key={item.title}
