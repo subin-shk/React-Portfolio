@@ -40,19 +40,16 @@ const store = (set) => ({
     {
       title: "Blog Website",
       images: [
-        "images/blog/blog1.png",
         "images/blog/blog2.png",
+        "images/blog/blog1.png",
         "images/blog/blog3.png",
       ],
       description:
-      "Simple Blog website with the use of dummy JSON to handle API calls with the fuctions of adding blogs, form handling and more. ",
-    techStack: ["HTML", "CSS", "JS", "Tailwind", "React"],
-    github:
-      "subin-shk/React-Blog",
-    githubLink:
-      "https://github.com/subin-shk/React-Blog",
+        "Simple Blog website with the use of dummy JSON to handle API calls with the fuctions of adding blogs, form handling and more. ",
+      techStack: ["HTML", "CSS", "JS", "Tailwind", "React"],
+      github: "subin-shk/React-Blog",
+      githubLink: "https://github.com/subin-shk/React-Blog",
     },
-
   ],
 });
 

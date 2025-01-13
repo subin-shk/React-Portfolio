@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div id="about" className="about text-justify">
-        <h2 className="mb-5">About</h2>
+        <h1 className="mb-5 text-center">About</h1>
         <p>
           As a computer science student with a passion for creativity, my
           interests extend far beyond the confines of code and algorithms. While

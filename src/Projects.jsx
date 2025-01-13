@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-bold text-center my-5">Projects</h2>
+      <h1 className="text-center mb-5">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
         {items.map((item) => (
           <div
@@ -22,7 +22,7 @@ const Projects = () => {
 
               <div className="flex items-center mb-2">
                 <h4 className="font-medium mr-2">Tech Stack:</h4>
-                <ul className="list-none flex space-x-5">
+                <ul className="list-none flex flex-wrap flex-row space-x-5">
                   {item.techStack.map((tech, index) => (
                     <li key={index}>{tech}</li>
                   ))}

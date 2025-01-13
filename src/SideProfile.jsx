@@ -5,7 +5,12 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const SideProfile = () => {
   return (
     <>
-      <img src="/images/photo.jpg" alt="Subin Shakya" className="photo" />
+      <img
+        src="/images/photo.jpg"
+        alt="Subin Shakya"
+        className="photo block mx-auto mb-5"
+      />
+
       <h1>Subin Shakya</h1>
       <p>Currently pursuing B.Sc. CSIT in Nepal</p>
       <button className="border border-gray-500 rounded-full px-4 py-2 my-5 hover:bg-blue-700">

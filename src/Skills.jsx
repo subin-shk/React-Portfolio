@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="skills">
-      <h2>Tech Stack</h2>
+      <h1 className="text-center mb-5">Tech Stack</h1>
 
       <img src="images/html.png" alt="html" />
       <img src="images/css.png" alt="css" />

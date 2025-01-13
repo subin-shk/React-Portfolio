@@ -20,11 +20,11 @@ const Carousel = ({ images }) => {
   return (
     <div className="relative">
       {imageArray.length > 0 && (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden mx-7">
           <img
             src={imageArray[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
-            className="w-full h-72 rounded-lg"
+            className="w-full h-72 rounded-lg project-image"
           />
         </div>
       )}
