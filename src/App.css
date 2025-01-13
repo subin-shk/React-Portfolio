@@ -19,10 +19,7 @@ html {
 }
 
 .wrapper {
-  /* display: flex;
-  justify-content: flex-start;
-  flex-direction: row; */
-  padding: 5% 7%;
+  padding: 5% 10%;
   width: 100%;
 }
 
