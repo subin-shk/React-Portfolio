@@ -14,7 +14,7 @@ const SideProfile = () => {
       <h1>Subin Shakya</h1>
       <p>Currently pursuing B.Sc. CSIT in Nepal</p>
       <a href="/Subin_Shakya_CV.pdf" download="Subin_Shakya_CV.pdf">
-        <button class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-teal-900 before:duration-500 before:ease-out hover:shadow-teal-900  hover:border hover:before:h-56 hover:before:w-56 rounded-xl mt-5 ml-14">
+        <button class=" rounded-md py-2 px-5 my-5 hover:bg-teal-900 bg-gray-800 hover:shadow-lg hover:shadow-teal-900">
           <span class="relative z-10">Download Resume</span>
         </button>
       </a>
