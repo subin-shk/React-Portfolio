@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="nav py-3 mb-5 z-10 bg-white">
+    <nav className="nav mb-5 z-10 bg-white mt-20 ">
       <ul className="flex justify-center space-x-5">
         <li>
           <NavLink

@@ -11,13 +11,12 @@ function App() {
   return (
     <Router>
       <div className="wrapper container mx-auto grid grid-cols-1 lg:grid-cols-4">
-        <div className="side-profile lg:fixed  text-center lg:col-span-1">
-          <SideProfile />
-        </div>
+        <SideProfile />
+
         <div className="navbar w-full ">
           <Navbar />
         </div>
-        <div className="side-contents  lg:ml-96 lg:col-span-4">
+        <div className="side-contents mt-1  lg:ml-96 lg:mb-16 lg:px-24 lg:col-span-4">
           <Routes>
             <Route path="/" element={<About />}></Route>
             <Route path="/education" element={<Education />}></Route>

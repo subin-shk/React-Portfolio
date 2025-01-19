@@ -3,7 +3,7 @@ import Skills from "./Skills";
 const About = () => {
   return (
     <>
-      <div id="about" className="about text-justify">
+      <div id="about" className="about">
         <h1 className="text-center">About</h1>
         <div className="mx-5 mt-3">
           <p>

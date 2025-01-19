@@ -12,7 +12,7 @@ const Projects = () => {
         {items.map((item) => (
           <div
             key={item.title}
-            className="border rounded-lg shadow-md p-5 bg-white"
+            className="border rounded-lg shadow-md p-5 bg-gray-600 shadow-lg shadow-teal-900"
           >
             <h3 className="text-lg text-center font-semibold mb-5">
               {item.title}
